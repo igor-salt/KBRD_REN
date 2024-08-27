@@ -1,0 +1,157 @@
+(footprint "Battery"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Molex PicoBlade Connector System, 53048-0210, 2 Pins per row (http://www.molex.com/pdm_docs/sd/530480210_sd.pdf), generated with kicad-footprint-generator")
+	(tags "connector Molex PicoBlade top entry")
+	(property "Reference" "REF**"
+		(at 0 2 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2884c06b-f947-4ed9-bf76-0bcb7fc2adde")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BATT"
+		(at 0 2 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c0c152a-8f18-4a98-ac13-304a92aa4da5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "one:Battery"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "330b081c-1aea-41bd-a72c-9c162ed8b0d1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22a75a12-e39f-43ac-8411-260984fcf766")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "367a2f20-c1f4-4d7e-8b96-3a62f2b8b06a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.135 0)
+		(end -3.865 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "421d7240-d667-42f7-974b-6f4729a235ad")
+	)
+	(fp_line
+		(start -4.5 -0.635)
+		(end -4.5 0.635)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "886ae029-124a-4cfe-b908-2599ae52af84")
+	)
+	(fp_line
+		(start 3.865 0)
+		(end 5.135 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "9e8c038e-c309-4fe4-85ea-a1b6500e6736")
+	)
+	(fp_line
+		(start -5.135 0)
+		(end -3.865 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "287c5c96-40e9-4b3c-a726-2adfb83db738")
+	)
+	(fp_line
+		(start -4.5 -0.635)
+		(end -4.5 0.635)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "66f3e90e-7e3f-4d77-81ae-22e436537695")
+	)
+	(fp_line
+		(start 3.865 0)
+		(end 5.135 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "650f26fb-2058-4b8a-8164-9963eee3eb00")
+	)
+	(pad "1" thru_hole circle
+		(at -2 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e57d0b0a-fc01-4f40-b0d8-6f4ffa87e7fa")
+	)
+	(pad "2" thru_hole roundrect
+		(at 2 0 90)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "c141aa82-f0e9-4228-a0e6-aa583c780ecc")
+	)
+	(model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_PicoBlade_53048-0210_1x02_P1.25mm_Horizontal.wrl"
+		(offset
+			(xyz -0.625 2 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,196 @@
+(footprint "KS-27_KS-33_Hotswap_1U_DUAL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -8.2625 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8b2702a4-de82-48ef-8693-c2a03a503285")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_SPST"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d35f940-8385-4c42-b26b-35cff8414b75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "one:KS-27_KS-33_Hotswap_1U_DUAL"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6df69eb-4281-45bd-9383-89091c33bb80")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2cc83480-b883-479d-be90-4801677a9308")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37a58a1c-c7b6-453f-9acc-39ef292c848c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -9.5 -9.5)
+		(end 9.5 9.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "8a86b39e-eda0-40e0-becc-379abe5a8805")
+	)
+	(fp_rect
+		(start -7 -7)
+		(end 7 7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "04e83795-0c31-4fec-ba38-cc8c46518787")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fc94b1c-9c39-48a9-9cbc-ee4374218085")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -4.4 4.7)
+		(size 3 3)
+		(drill 3)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "31124802-6586-490f-a18f-e75e6e148444")
+	)
+	(pad "" np_thru_hole circle
+		(at -2.6 5.75)
+		(size 3 3)
+		(drill 3)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "0a590b34-a4ed-4782-846b-03bcf131acc5")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 5 5)
+		(drill 5)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "f912d33b-01e4-4841-b087-cb6e014a770c")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.6 5.75)
+		(size 3 3)
+		(drill 3)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "46cd9307-3b24-4e07-9cc4-dd27a75b1a88")
+	)
+	(pad "" np_thru_hole circle
+		(at 4.4 4.7)
+		(size 3 3)
+		(drill 3)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "873221b0-ab6a-4369-be2d-3544246bc5d5")
+	)
+	(pad "1" smd rect
+		(at -8 4.7)
+		(size 2 2.5)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "b2c9ce1a-2774-4b40-9469-34cff78adcd1")
+	)
+	(pad "1" smd rect
+		(at -6.2 5.75)
+		(size 2 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7e4025b6-d623-45b5-b3cf-f1f95b318cea")
+	)
+	(pad "2" smd rect
+		(at 6.2 5.75)
+		(size 2 2.5)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "f1936e2e-b3d3-4ccb-b8c0-00549403b600")
+	)
+	(pad "2" smd rect
+		(at 8 4.7)
+		(size 2 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2d34dc2d-a634-4cc7-a444-a1fcb2f9f36c")
+	)
+	(model "C:/Users/Rafael/Documents/Keyboards/KS-27-Hotswap.step"
+		(hide yes)
+		(offset
+			(xyz -1.8 -10.4 -3.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/lib/3D/Gateron_ks33_hotswap_socket.step"
+		(offset
+			(xyz -0 0.1 -1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/lib/3D/KS33-low profile.step"
+		(offset
+			(xyz 0 0 -4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
