@@ -510,7 +510,7 @@
       "plot": "gerbers",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../references/pcb_right_bottom_xiao.step",
+      "step": "../pcb_right_bottom_xiao.step",
       "svg": "",
       "vrml": ""
     },
