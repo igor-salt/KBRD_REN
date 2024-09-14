@@ -8,7 +8,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "6b6b5d8c-ecf3-4cee-930f-322367ddef8b")
+		(uuid "73766cee-03fa-443d-9b4f-7f11be520b11")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cd273582-54ca-4ee9-b6ba-1fb34614b7bc")
+		(uuid "19b4858e-330a-4873-8480-573931c38e64")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "de9f17a8-0791-4e69-8d14-1d110bce9ac9")
+		(uuid "77f0b62f-561c-4fbc-8b6e-28f27d65eade")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f208b01c-c29e-4878-8b8c-689f30cf1191")
+		(uuid "bf012f90-89e8-4f10-804c-15fcf793fa14")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +58,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2429b942-07cd-4adf-8d6b-a250f82271f7")
+		(uuid "96aff4f4-7b3a-4f16-95a3-1447a593e51b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -76,7 +76,7 @@
 		)
 		(fill none)
 		(layer "Dwgs.User")
-		(uuid "776fe5cb-4ca4-4921-bab0-b4a75b4d5abc")
+		(uuid "102ff004-b3e7-4541-a41b-6a2a3e0e150b")
 	)
 	(fp_rect
 		(start -5.285811 -0.349813)
@@ -87,7 +87,7 @@
 		)
 		(fill none)
 		(layer "Dwgs.User")
-		(uuid "2bb4c713-9d9d-409f-a89b-2670f49978ae")
+		(uuid "184c0790-62bf-4e6a-9e73-c69e4a8c37ed")
 	)
 	(fp_line
 		(start -6.6 0)
@@ -97,7 +97,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "4b1e7fea-297f-4e9b-8545-087b5a783a34")
+		(uuid "fa5b164b-e0fe-4dd8-bb41-10ebbc63250b")
 	)
 	(fp_line
 		(start -6.1 21.3)
@@ -107,7 +107,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "6c5a436c-ec77-498f-b888-b3f78dfe50e7")
+		(uuid "f8ae95a1-4438-412c-8d22-00f49ab5fc54")
 	)
 	(fp_line
 		(start 6.6 20.8)
@@ -117,7 +117,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "3d3c579b-182a-4588-b31d-2ffe9e006c0a")
+		(uuid "c27b6582-9e11-4e18-887c-3df1c345fd00")
 	)
 	(fp_arc
 		(start -6.096447 21.296446)
@@ -128,18 +128,18 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "05193d55-ed7a-4d4e-8ce7-0807425bd460")
+		(uuid "2a9a32b7-05db-4ee1-a0ab-19a0355a40c1")
 	)
 	(fp_arc
 		(start 6.599999 20.800001)
-		(mid 6.453553 21.153554)
+		(mid 6.453552 21.153553)
 		(end 6.1 21.3)
 		(stroke
 			(width 0.12)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "0c5ddd8b-7a32-46e6-aa99-a98029a891ef")
+		(uuid "3421ab2b-d815-477f-9ddb-ac99ff567ab0")
 	)
 	(pad "1" smd oval
 		(at -8.56996 2.88)
@@ -159,7 +159,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "1d955b00-ccf4-4b5f-916e-aacaab908a81")
+		(uuid "97bbf7b3-e374-44cc-a6a8-df887831652a")
 	)
 	(pad "1" smd oval
 		(at 8.56996 2.88)
@@ -179,7 +179,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "03c028ed-d4aa-46ad-8fbe-21d79989ac50")
+		(uuid "57a9567e-5c6f-4107-8555-6265d733ddbe")
 	)
 	(pad "2" smd oval
 		(at -8.56996 5.42)
@@ -199,7 +199,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "51349e43-1dd9-4845-b3ba-953d0620aa3c")
+		(uuid "1b3b29cc-ed76-4b19-8791-1a22cf5a16dc")
 	)
 	(pad "2" smd oval
 		(at 8.56996 5.42)
@@ -219,7 +219,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "7a797ec6-d1c0-4a57-bdd3-da9665f58191")
+		(uuid "39386879-5298-4853-9559-8cbc430fd3f9")
 	)
 	(pad "3" smd oval
 		(at -8.56996 7.96)
@@ -239,7 +239,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "c03a180e-369d-4889-ac19-e7df37bc0f68")
+		(uuid "17f43a2b-716b-4000-be36-cca8743b7f16")
 	)
 	(pad "3" smd oval
 		(at 8.56996 7.96)
@@ -259,7 +259,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "513314b6-d5a7-4c41-a870-0bcd8851e022")
+		(uuid "d6c318e9-b09f-4ce6-a53f-0a5010d955f4")
 	)
 	(pad "4" smd oval
 		(at -8.56996 10.5)
@@ -279,7 +279,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "270eac8f-bb70-45d9-b548-c890203b927f")
+		(uuid "0d44d5f6-704b-48cb-bcd1-33926013edfc")
 	)
 	(pad "4" smd oval
 		(at 8.56996 10.5)
@@ -299,7 +299,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "ea846c26-91b7-4d6f-a9a6-0c1f0fedaee7")
+		(uuid "c9b2ddd5-fbd9-46b1-b347-5899520ae6a8")
 	)
 	(pad "5" smd oval
 		(at -8.56996 13.04)
@@ -319,7 +319,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "d72904c9-195d-430d-99e2-5e146e5304f3")
+		(uuid "43393650-d2e7-45d5-9ecd-555e6cb50c03")
 	)
 	(pad "5" smd oval
 		(at 8.56996 13.04)
@@ -339,7 +339,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "a103e1e9-4bf4-4784-9984-cd6fa6405151")
+		(uuid "6a423e4b-44cc-4b30-b856-0c52f438c618")
 	)
 	(pad "6" smd oval
 		(at -8.56996 15.58)
@@ -359,7 +359,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "d9c60f61-e789-4d4c-9365-0525839b396f")
+		(uuid "f5f90f1f-5beb-4a47-bdda-9490bfd83846")
 	)
 	(pad "6" smd oval
 		(at 8.56996 15.58)
@@ -379,7 +379,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "8f3aebe9-8ba2-490a-b7b3-b55615db7d06")
+		(uuid "64d4853b-ec50-4d71-bb7a-b10551a91b4b")
 	)
 	(pad "7" smd oval
 		(at -8.56996 18.12)
@@ -399,7 +399,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "0971fe0b-89c8-41e7-bb95-d98eafb4c037")
+		(uuid "4a43be0f-4101-4ca8-9dbb-197a6a03e226")
 	)
 	(pad "7" smd oval
 		(at 8.56996 18.12)
@@ -419,7 +419,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "a4fbc153-d0ae-43d3-87b9-8b04cff6c84f")
+		(uuid "c6763f94-930b-4b1f-81d9-59398a9c7279")
 	)
 	(pad "8" smd oval
 		(at -8.56996 18.12 180)
@@ -439,7 +439,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "177f6e00-a988-46f4-9595-ab373a421570")
+		(uuid "0e93c61f-a5ac-450a-8fcc-a46f2164c592")
 	)
 	(pad "8" smd oval
 		(at 8.56996 18.12 180)
@@ -459,7 +459,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "89f0e26c-7127-4de9-8a78-ef355fdcc3a1")
+		(uuid "01b97bd1-1003-4bbf-a341-4c4d2d25b331")
 	)
 	(pad "9" smd oval
 		(at -8.56996 15.58 180)
@@ -479,7 +479,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "79e2ac6e-8a4f-4190-8c4a-46a459a03c77")
+		(uuid "4a88e41a-83ce-44d8-9dbd-c6240f6d6a60")
 	)
 	(pad "9" smd oval
 		(at 8.56996 15.58 180)
@@ -499,7 +499,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "dfaf79f0-3faf-4568-b042-ad7f97357d19")
+		(uuid "993475de-0c32-44ba-a10d-98978790a03b")
 	)
 	(pad "10" smd oval
 		(at -8.56996 13.04 180)
@@ -519,7 +519,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "fad3834f-e5fe-40e1-ae14-07d5dca6392a")
+		(uuid "15c20e05-f4a2-43d4-983b-6943d89cb2b7")
 	)
 	(pad "10" smd oval
 		(at 8.56996 13.04 180)
@@ -539,7 +539,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "209fbbda-d57d-42ae-8cfc-4101c73a9dbd")
+		(uuid "a4847a12-afa4-42a2-903e-95f009b3304f")
 	)
 	(pad "11" smd oval
 		(at -8.56996 10.5 180)
@@ -559,7 +559,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "36c8cc9e-5ea8-4a1f-82b7-ed611f4e37e2")
+		(uuid "37d98e35-acc3-4419-bcac-b9bf4111d0e7")
 	)
 	(pad "11" smd oval
 		(at 8.56996 10.5 180)
@@ -579,7 +579,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "85aa33f9-37c4-418a-9367-843a79a2e365")
+		(uuid "1e6ab3a0-341d-4da5-805f-772a08e7cd4b")
 	)
 	(pad "12" smd oval
 		(at -8.56996 7.96 180)
@@ -599,7 +599,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "b9c09085-4c61-4d3f-b356-089f5623c36f")
+		(uuid "200adfdf-edbe-45ff-9727-f9f66da4351b")
 	)
 	(pad "12" smd oval
 		(at 8.56996 7.96 180)
@@ -619,7 +619,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "41e27501-b3a2-4ea2-823b-fa72fe7ec5d6")
+		(uuid "38309158-6417-4621-ad8f-3e1b5f79cff0")
 	)
 	(pad "13" smd oval
 		(at -8.56996 5.42 180)
@@ -639,7 +639,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "c2d2b620-78ad-4b5b-be08-edc072f081f2")
+		(uuid "fa29681b-6eca-40a8-9b35-4a0b15aee221")
 	)
 	(pad "13" smd oval
 		(at 8.56996 5.42 180)
@@ -659,7 +659,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "554926a2-dbcc-4fb4-8b19-8ee8edd93515")
+		(uuid "c701cb98-49ae-4efe-aad1-d95f2d7fbc44")
 	)
 	(pad "14" smd oval
 		(at -8.56996 2.88 180)
@@ -679,7 +679,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "d24cf6c8-dfb5-4ef7-bb23-bf2a2143a483")
+		(uuid "01bffb33-cfae-4044-a5d7-5bb376d21950")
 	)
 	(pad "14" smd oval
 		(at 8.56996 2.88 180)
@@ -699,12 +699,11 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "d183f097-4686-4fb0-bb48-69c955713545")
+		(uuid "010eb098-2957-4dee-adca-9745436062f6")
 	)
 	(model "${KIPRJMOD}/lib/3D/XIAO-nRF52840 v15.step"
-		(opacity 0.9400)
 		(offset
-			(xyz 6 -12.4 -2.4)
+			(xyz 6 -12.4 -2.7)
 		)
 		(scale
 			(xyz 1 1 1)
