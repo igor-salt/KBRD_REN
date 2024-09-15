@@ -1,0 +1,176 @@
+(footprint "lp601730"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "BT1"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a18cbf81-573f-4d36-93f3-cf1def4fef96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LP601730"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c56ec180-371d-4fed-a1fe-5e891d2b5c63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Two:lp601730"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c523b75-21db-4809-a9b5-983daa31cd96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d3af020-6808-4c64-a277-5a2cc7b23f86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Single-cell battery"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12719b0c-1660-46c1-bed4-b856d20c4d1a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -9.5 15)
+		(end -9.5 -15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "86735ed8-e179-4c08-9989-d46c59fdc8c9")
+	)
+	(fp_line
+		(start -8.5 -16)
+		(end 8.5 -16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2a6abd88-ec35-4418-bc75-bdac0dfc26df")
+	)
+	(fp_line
+		(start 8.5 16)
+		(end -8.5 16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "60f0bdd8-95c0-4f55-a7ea-e30c753214a1")
+	)
+	(fp_line
+		(start 9.5 -15)
+		(end 9.5 15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "afa6c9ac-e708-4d6e-8b30-3a916e00ef8b")
+	)
+	(fp_arc
+		(start -9.5 -15)
+		(mid -9.207092 -15.707092)
+		(end -8.5 -16)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3b2a0aa8-466b-4092-ac63-857782e80696")
+	)
+	(fp_arc
+		(start -8.5 16)
+		(mid -9.2071 15.7071)
+		(end -9.5 15)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cacba9d2-6b3c-4551-bbfb-74d6b4af0d50")
+	)
+	(fp_arc
+		(start 8.5 -16)
+		(mid 9.207107 -15.707107)
+		(end 9.5 -15)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1e3dbc8d-f4e6-4e39-b637-3c71dbed5d51")
+	)
+	(fp_arc
+		(start 9.5 15)
+		(mid 9.207121 15.707121)
+		(end 8.5 16)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "50793990-cf15-4296-b2ec-5d49a45d8e5a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a1a1fc1f-f792-47da-8be5-8dc0bfbe746e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(model "${KIPRJMOD}/lib/3D/lp601730.step"
+		(offset
+			(xyz -8.8 15.2 -3.9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)
