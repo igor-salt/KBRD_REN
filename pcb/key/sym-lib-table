@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Two")(type "KiCad")(uri "C:/Users/IS/Documents/GitHub/KBRD_REN/pcb/lib/Two.kicad_sym")(options "")(descr ""))
+)

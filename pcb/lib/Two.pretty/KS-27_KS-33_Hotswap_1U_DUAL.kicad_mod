@@ -3,11 +3,11 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(property "Reference" "REF**"
+	(property "Reference" "SW1"
 		(at 0 -8.2625 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "8b2702a4-de82-48ef-8693-c2a03a503285")
+		(uuid "0dc71ab5-b9b4-4fa3-9d43-3a499f48ff22")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4d35f940-8385-4c42-b26b-35cff8414b75")
+		(uuid "7cc8aa46-cbbc-47b9-bcf2-6be5a2aad6b4")
 		(effects
 			(font
 				(size 1 1)
@@ -28,11 +28,11 @@
 			)
 		)
 	)
-	(property "Footprint" "one:KS-27_KS-33_Hotswap_1U_DUAL"
+	(property "Footprint" "Two:KS-27_KS-33_Hotswap_1U_DUAL"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b6df69eb-4281-45bd-9383-89091c33bb80")
+		(uuid "bc6d84ec-98de-4808-8d71-7cb2d917b38e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2cc83480-b883-479d-be90-4801677a9308")
+		(uuid "7d6be1a6-f8c7-44ea-971a-fabf0f11c23a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,11 +52,11 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Single Pole Single Throw (SPST) switch"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "37a58a1c-c7b6-453f-9acc-39ef292c848c")
+		(uuid "8b6b8092-e142-48ea-96b8-9382370890ac")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -74,7 +74,7 @@
 		)
 		(fill none)
 		(layer "Dwgs.User")
-		(uuid "8a86b39e-eda0-40e0-becc-379abe5a8805")
+		(uuid "49785ca6-c845-44f1-9607-5ffdeec50ff8")
 	)
 	(fp_rect
 		(start -7 -7)
@@ -85,14 +85,14 @@
 		)
 		(fill none)
 		(layer "Dwgs.User")
-		(uuid "04e83795-0c31-4fec-ba38-cc8c46518787")
+		(uuid "6b9ccc76-9600-411e-a134-d8b27d1f97c3")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2fc94b1c-9c39-48a9-9cbc-ee4374218085")
+		(uuid "a417b983-01a8-4f9d-aaaf-c51819dff8a0")
 		(effects
 			(font
 				(size 1 1)
@@ -105,75 +105,63 @@
 		(size 3 3)
 		(drill 3)
 		(layers "F&B.Cu" "*.Mask")
-		(uuid "31124802-6586-490f-a18f-e75e6e148444")
+		(uuid "5b1b9127-120d-4022-829b-88af0420aaa7")
 	)
 	(pad "" np_thru_hole circle
 		(at -2.6 5.75)
 		(size 3 3)
 		(drill 3)
 		(layers "F&B.Cu" "*.Mask")
-		(uuid "0a590b34-a4ed-4782-846b-03bcf131acc5")
+		(uuid "741bd8ce-eea8-42dc-9e29-1a234f8f852d")
 	)
 	(pad "" np_thru_hole circle
 		(at 0 0)
 		(size 5 5)
 		(drill 5)
 		(layers "F&B.Cu" "*.Mask")
-		(uuid "f912d33b-01e4-4841-b087-cb6e014a770c")
+		(uuid "aa11d8c0-f466-47d2-b149-63918de86489")
 	)
 	(pad "" np_thru_hole circle
 		(at 2.6 5.75)
 		(size 3 3)
 		(drill 3)
 		(layers "F&B.Cu" "*.Mask")
-		(uuid "46cd9307-3b24-4e07-9cc4-dd27a75b1a88")
+		(uuid "66428ec7-0589-4782-86d4-6ca364b9f255")
 	)
 	(pad "" np_thru_hole circle
 		(at 4.4 4.7)
 		(size 3 3)
 		(drill 3)
 		(layers "F&B.Cu" "*.Mask")
-		(uuid "873221b0-ab6a-4369-be2d-3544246bc5d5")
+		(uuid "c979a19b-ac25-442a-ae84-1bc6ef8fe583")
 	)
 	(pad "1" smd rect
 		(at -8 4.7)
 		(size 2 2.5)
 		(layers "B.Cu" "B.Paste" "B.Mask")
-		(uuid "b2c9ce1a-2774-4b40-9469-34cff78adcd1")
+		(uuid "f6c7dc99-7b9f-4517-956c-a1ae4c458bea")
 	)
 	(pad "1" smd rect
 		(at -6.2 5.75)
 		(size 2 2.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "7e4025b6-d623-45b5-b3cf-f1f95b318cea")
+		(uuid "998db0cd-2bcd-429b-87d8-f3ea1867b072")
 	)
 	(pad "2" smd rect
 		(at 6.2 5.75)
 		(size 2 2.5)
 		(layers "B.Cu" "B.Paste" "B.Mask")
-		(uuid "f1936e2e-b3d3-4ccb-b8c0-00549403b600")
+		(uuid "0f5a5a24-8cbe-4b7b-8c7e-21f882321922")
 	)
 	(pad "2" smd rect
 		(at 8 4.7)
 		(size 2 2.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "2d34dc2d-a634-4cc7-a444-a1fcb2f9f36c")
+		(uuid "336339a5-da0c-4dcb-bcfb-24ea5b25cd37")
 	)
-	(model "C:/Users/Rafael/Documents/Keyboards/KS-27-Hotswap.step"
-		(hide yes)
+	(model "C:/Users/IS/Documents/GitHub/KBRD_REN/pcb/lib/3D/Gateron_ks33_hotswap_socket.step"
 		(offset
-			(xyz -1.8 -10.4 -3.5)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KIPRJMOD}/lib/3D/Gateron_ks33_hotswap_socket.step"
-		(offset
-			(xyz -0 0.1 -1.5)
+			(xyz -0 0.1 -1.76)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -182,9 +170,9 @@
 			(xyz -180 0 0)
 		)
 	)
-	(model "${KIPRJMOD}/lib/3D/KS33-low profile.step"
+	(model "C:/Users/IS/Documents/GitHub/KBRD_REN/pcb/lib/3D/KS33-low profile.step"
 		(offset
-			(xyz 0 0 -4)
+			(xyz 0 0 -3.45)
 		)
 		(scale
 			(xyz 1 1 1)

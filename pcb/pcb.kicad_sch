@@ -12,8 +12,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
+			(property "Reference" "BT1"
+				(at 3.81 3.1116 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21,8 +21,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Battery_Cell"
-				(at 2.54 0 0)
+			(property "Value" "LP601730"
+				(at 3.81 0.5716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30,8 +30,9 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Two:lp601730"
 				(at 0 1.524 90)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -139,7 +140,7 @@
 				)
 			)
 			(symbol "Battery_Cell_1_1"
-				(pin passive line
+				(pin power_out line
 					(at 0 5.08 270)
 					(length 2.54)
 					(name "+"
@@ -157,264 +158,10 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 0 -2.54 90)
 					(length 2.54)
 					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Two:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1621,19 +1368,11 @@
 		(uuid "fd5852b7-715c-410d-8ed0-9a1a5fe92518")
 	)
 	(no_connect
-		(at 43.18 55.88)
-		(uuid "13dd865f-72f7-4be6-a2cd-0e7729cef4e5")
-	)
-	(no_connect
-		(at 40.64 55.88)
-		(uuid "1fea2e05-9780-45ae-9805-b35ffdca147f")
-	)
-	(no_connect
 		(at 68.58 36.83)
 		(uuid "4ef73805-1ad0-4454-b215-75f9746dc429")
 	)
 	(no_connect
-		(at 49.53 88.9)
+		(at 40.64 76.2)
 		(uuid "4f3b184e-8fe2-4f08-b8f0-668c80dd068f")
 	)
 	(no_connect
@@ -1763,6 +1502,16 @@
 			(type default)
 		)
 		(uuid "1e9822cb-d438-452b-b074-e8e6ee5236f8")
+	)
+	(wire
+		(pts
+			(xy 40.64 55.88) (xy 40.64 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ebf5828-5507-49b7-881d-acb8369fcf03")
 	)
 	(wire
 		(pts
@@ -1986,6 +1735,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 55.88) (xy 43.18 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f775a23-b7b6-47fd-9fa3-6e80c5be4405")
+	)
+	(wire
+		(pts
 			(xy 165.1 63.5) (xy 165.1 66.04)
 		)
 		(stroke
@@ -2086,6 +1845,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 85.09) (xy 38.1 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88241704-c68b-488b-8909-a7a902a0de1f")
+	)
+	(wire
+		(pts
 			(xy 167.64 46.99) (xy 167.64 63.5)
 		)
 		(stroke
@@ -2173,6 +1942,16 @@
 			(type default)
 		)
 		(uuid "9c20661a-003b-4f48-9d13-144f68decb14")
+	)
+	(wire
+		(pts
+			(xy 30.48 73.66) (xy 26.67 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5f34c9a-a67f-4cf8-ac28-99d7cfe5a932")
 	)
 	(wire
 		(pts
@@ -2366,6 +2145,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 85.09) (xy 30.48 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d47de042-8461-4e0e-b355-7e7cfb839999")
+	)
+	(wire
+		(pts
 			(xy 165.1 80.01) (xy 165.1 82.55)
 		)
 		(stroke
@@ -2453,6 +2242,16 @@
 			(type default)
 		)
 		(uuid "ec1671d9-83c1-4f37-9f6e-fa13fcaabac8")
+	)
+	(wire
+		(pts
+			(xy 26.67 73.66) (xy 26.67 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee0c4636-11c5-4330-9f97-b90e34e358f1")
 	)
 	(wire
 		(pts
@@ -3461,16 +3260,15 @@
 	)
 	(symbol
 		(lib_id "Two:SW_SPDT")
-		(at 44.45 86.36 0)
+		(at 35.56 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1837e89d-5f08-4491-a908-4433458e1eac")
 		(property "Reference" "PWR1"
-			(at 44.45 78.74 0)
+			(at 35.56 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3478,7 +3276,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 44.45 81.28 0)
+			(at 35.56 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3486,7 +3284,7 @@
 			)
 		)
 		(property "Footprint" "Two:MSK-12C02_DUAL"
-			(at 44.45 86.36 0)
+			(at 35.56 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3495,7 +3293,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 86.36 0)
+			(at 35.56 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3504,7 +3302,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 44.45 86.36 0)
+			(at 35.56 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4380,138 +4178,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 36.83 86.36 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50459a6e-5af6-497e-bf6a-8b837dcf933f")
-		(property "Reference" "H6"
-			(at 35.56 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT+"
-			(at 35.56 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
-			(at 36.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 36.83 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20387201-fccd-44e8-82f6-c7026d3ba169")
-		)
-		(instances
-			(project "pcb"
-				(path "/1fd8269d-bfbb-4294-b901-abae7a95debd"
-					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 52.07 83.82 270)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57a37019-335c-46a4-a24d-c66cc9b036a1")
-		(property "Reference" "H5"
-			(at 55.88 82.5499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "19"
-			(at 55.88 85.0899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
-			(at 52.07 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be1bfcde-29f8-4d4b-8004-6f0779b02c74")
-		)
-		(instances
-			(project ""
-				(path "/1fd8269d-bfbb-4294-b901-abae7a95debd"
-					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Two:D_Small")
 		(at 180.34 52.07 90)
 		(unit 1)
@@ -4967,74 +4633,6 @@
 			(project "pcb"
 				(path "/1fd8269d-bfbb-4294-b901-abae7a95debd"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Two:Conn_01x02_Pin")
-		(at 38.1 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "770c0574-a81e-46be-9ffd-7e50b0ac68fe")
-		(property "Reference" "J1"
-			(at 38.735 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 38.735 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Two:JST_SH_Battery_DUAL_"
-			(at 38.1 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 38.1 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0d278788-f408-4544-b4ab-dcb8c9597c94")
-		)
-		(pin "1"
-			(uuid "c6702c3e-181b-44c4-95d2-fe5d007513d8")
-		)
-		(instances
-			(project ""
-				(path "/1fd8269d-bfbb-4294-b901-abae7a95debd"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6135,7 +5733,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 60.96 105.41 0)
+		(at 35.56 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6144,25 +5742,24 @@
 		(fields_autoplaced yes)
 		(uuid "dc07b030-843b-48c4-9f83-aa43c8e3a3ba")
 		(property "Reference" "BT1"
-			(at 64.77 102.2984 0)
+			(at 33.7185 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "LP601730"
-			(at 64.77 104.8384 0)
+			(at 33.7185 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Two:lp601730"
-			(at 60.96 103.886 90)
+			(at 34.036 85.09 90)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6171,7 +5768,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 103.886 90)
+			(at 34.036 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6180,7 +5777,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 60.96 105.41 0)
+			(at 35.56 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
