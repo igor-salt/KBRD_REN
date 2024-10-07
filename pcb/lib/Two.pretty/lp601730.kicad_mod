@@ -7,7 +7,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "771beabe-5670-4dcb-b31a-fffa728bf718")
+		(uuid "d47c55bf-3b66-40cc-97ee-42d35c55c5b3")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "5934c29a-8970-41d6-94b0-bdbae5d0a64c")
+		(uuid "41716d8a-af2f-4c3b-a712-01287ede5007")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8317dee6-d3cc-4779-bb4c-eb7a75ec7692")
+		(uuid "a3255a00-47d1-4f90-807d-00ca58aa1b81")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "06ef7eb1-84a4-45a7-879b-540c93cdeb0c")
+		(uuid "cfd07685-3dcb-4feb-8725-99df86ef6b32")
 		(effects
 			(font
 				(size 1 1)
@@ -58,7 +58,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "dbef156e-dead-42a9-ae1f-5f6ad7217036")
+		(uuid "361c312b-3c72-4772-9c37-c0068377eff5")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +74,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "0690adf1-9e16-448d-b3fe-5315d390a3fa")
+		(uuid "ec5f3563-8878-44b0-af9e-89ee980a9dda")
 	)
 	(fp_line
 		(start -8.5 -16)
@@ -84,7 +84,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "e0eaeba2-403a-41ba-9484-52567cfc1dbf")
+		(uuid "d0117c4a-4c52-42f6-a05c-fb934f60e061")
 	)
 	(fp_line
 		(start 8.5 16)
@@ -94,7 +94,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "58bb67a9-0c31-4768-bf1d-6bd0eea7d7c8")
+		(uuid "69a5b484-ff4e-43f0-ac11-2e45a4047af2")
 	)
 	(fp_line
 		(start 9.5 -15)
@@ -104,7 +104,7 @@
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "102b9dd3-59b0-4e62-a9de-618af99455a2")
+		(uuid "69f8c24a-1ebf-4b2c-be88-13f136000d7c")
 	)
 	(fp_arc
 		(start -9.5 -15)
@@ -115,7 +115,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "e02affde-3712-49be-86bb-e64656b286ac")
+		(uuid "5083b097-b101-422c-90d6-71034e09524b")
 	)
 	(fp_arc
 		(start -8.5 16)
@@ -126,7 +126,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "89b88a42-81ad-4f78-9af5-a180c2c67b06")
+		(uuid "2262bec1-84b9-464d-b5b2-419243bb715b")
 	)
 	(fp_arc
 		(start 8.5 -16)
@@ -137,7 +137,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "90db78c1-37fd-4a9b-88d9-450061d74e9f")
+		(uuid "c86ea611-7493-456e-b829-2be1a124d050")
 	)
 	(fp_arc
 		(start 9.5 15)
@@ -148,13 +148,13 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "b65aa6fd-a737-463f-9b57-f2f1b9612164")
+		(uuid "12591328-587f-454e-94be-7436519a512a")
 	)
 	(fp_text user "-BAT+"
 		(at 2.75 20.55 0)
 		(unlocked yes)
 		(layer "B.SilkS")
-		(uuid "e9ea30ec-0f46-4a75-beca-bd599aaf1552")
+		(uuid "336c0599-7908-4ead-9c21-b6ff087a8aa9")
 		(effects
 			(font
 				(size 1 1)
@@ -167,7 +167,7 @@
 		(at -2.45 20.55 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "c06f30de-72ab-4fba-b09a-35acba93a126")
+		(uuid "1e68309d-06da-4aeb-b8b7-019ad1a9b00c")
 		(effects
 			(font
 				(size 1 1)
@@ -180,7 +180,7 @@
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "b5fe7955-26a4-4a75-ab14-a90c3800bfb4")
+		(uuid "e967b78f-a5a4-484b-b392-bb4a1acb9f7b")
 		(effects
 			(font
 				(size 1 1)
@@ -194,7 +194,18 @@
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "570d7926-9df9-46a4-bee0-8635b618d2e3")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "3a85c81d-f607-42cd-bb83-c3ae9bbe4f8e")
 	)
 	(pad "2" thru_hole circle
 		(at 3.6 20)
@@ -202,11 +213,22 @@
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "4764b70d-8170-4913-95a5-e928931d3c7c")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "f1ced9d0-734c-47e8-929f-85effd054108")
 	)
 	(model "${KIPRJMOD}/lib/3D/bat_bot.step"
 		(offset
-			(xyz 0 0 -0.45)
+			(xyz 0 0 -1.25)
 		)
 		(scale
 			(xyz 1 1 1)
