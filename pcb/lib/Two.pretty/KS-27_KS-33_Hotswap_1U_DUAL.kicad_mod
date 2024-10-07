@@ -159,7 +159,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "336339a5-da0c-4dcb-bcfb-24ea5b25cd37")
 	)
-	(model "C:/Users/IS/Documents/GitHub/KBRD_REN/pcb/lib/3D/Gateron_ks33_hotswap_socket.step"
+	(model "${KIPRJMOD}/lib/3D/Gateron_ks33_hotswap_socket.step"
 		(offset
 			(xyz -0 0.1 -1.76)
 		)
@@ -170,7 +170,7 @@
 			(xyz -180 0 0)
 		)
 	)
-	(model "C:/Users/IS/Documents/GitHub/KBRD_REN/pcb/lib/3D/KS33-low profile.step"
+	(model "${KIPRJMOD}/lib/3D/KS33-low profile.step"
 		(offset
 			(xyz 0 0 -3.45)
 		)

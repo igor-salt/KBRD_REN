@@ -195,18 +195,6 @@
 		(layers "B.Cu" "B.Paste" "B.Mask")
 		(uuid "27b9fd39-5803-4ac4-882d-29812c053575")
 	)
-	(model ":KICAD7_3DMODEL_DIR:Diode_SMD.3dshapes/D_SOD-123F.step"
-		(hide yes)
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 	(model "${KIPRJMOD}/lib/3D/SOD-123F.step"
 		(offset
 			(xyz 0 0 0)
